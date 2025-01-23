@@ -1,0 +1,4 @@
+# These will be ignoreddd
+node_modules
+package-lock.json
+.DS_Store

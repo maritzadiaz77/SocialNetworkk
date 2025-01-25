@@ -7,7 +7,7 @@ const connection = require("../config/connection");
 // seed data
 const users = [
   {
-    username: "mar",
+    username: "mari",
     email: "maritza@gmail.com",
     thought: [],
   },
@@ -26,6 +26,6 @@ connection.once("open", async () => {
   await User.collection.insertMany(users);
 
   console.table(users);
-  console.info("Seeding complete! 🌱");
+  console.info("Seeding complete!");
   process.exit(0);
 });
